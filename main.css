@@ -1,5 +1,15 @@
+:root{
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+* {
+    color: var(--fontColor);
+    font-family: Helvetica;
+}
 body {
-    font-family: monospace;
+    background: var(--bg);
 }
 
 
@@ -15,11 +25,11 @@ li {
     list-style: square;
 }
 
-#msg {
-    font-family: monospace;
-}
-
 .light-theme {
-    color: #000000;
-    background: #00FF00;
+    --bg: var(--green);
+    --fontColor: var(--black);
+}
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
 }
