@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Droid, serif;
+    src: url(fonts/droidserif-regular.tff);
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {font-family: Droid, serif};
