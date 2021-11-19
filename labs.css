@@ -5,4 +5,8 @@
     font-style: normal;
 }
 
-* {font-family: Droid, serif};
+* {font-family: Droid, serif;
+    color: #003594;
+}
+
+a {color: blue;}
