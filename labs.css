@@ -7,7 +7,48 @@
 
 * {font-family: Droid, serif;}
 
+body {
+    background-color: #B3DFF7;
+}
 h1, h2, h3, h4 {color: #003694;}
+h1 {text-align: center;}
+h2 {text-align: right;}
 
+a.back {
+    margin-right: 0;
+    margin-left: auto;
+    text-align: right;
+}
+
+td {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#Table {text-align: center;}
+table {margin: auto auto;
+        empty-cells: show;
+        border-collapse: collapse;
+}
 
 a {color: blue;}
+a:visited {
+    color: #A6192E;
+    text-decoration: underline;
+}
+
+hr {color: #A6192E;}
+
+.listLetters {
+    list-style-type: lower-alpha;
+}
+
+figure {
+    border: 1px solid black;
+    border-collapse: collapse;
+    max-width: 450px;
+    margin: auto auto;
+}
+figcaption{
+    text-align: center;
+}
