@@ -20,6 +20,8 @@ a.back {
     text-align: right;
 }
 
+
+
 td {
     border: 1px solid black;
     padding: 15px;
@@ -29,6 +31,7 @@ td {
 table {margin: auto auto;
         empty-cells: show;
         border-collapse: collapse;
+        border: 1px solid black;
 }
 
 a {color: blue;}
