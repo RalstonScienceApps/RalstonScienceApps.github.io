@@ -55,6 +55,12 @@ figure {
     max-width: 450px;
     margin: auto auto;
 }
+
+.equation{
+    border: none;
+    margin: auto auto;
+}
+
 figcaption{
     text-align: center;
 }
