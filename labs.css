@@ -61,3 +61,11 @@ figcaption{
 img {
     max-width: 450px;
 }
+
+.pictab{
+    border: none;
+}
+
+.pic{
+    border: none;
+}
