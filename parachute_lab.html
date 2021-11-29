@@ -1,12 +1,246 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-        <title>Inclined to Agree</title>
+        <title>Parachute Drop Lab</title>
         <link href="labs.css"
         type="text/css" rel="stylesheet">
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
 </head>
 
 <body>
+    <div id="top">
     <h1>Parachute Drop Lab</h1>
-    
+    </div>
+    <div id="intro">
+        <h2>Introduction</h2>
+            <p>
+            What slows a parachute when it falls? A parachute is slowed by <b>air 
+            resistance</b>. Air is a collection of gas molecules that have to 
+            be pushed out of the way for any object to move through it. These 
+            molecules can exert force (pressure) on objects that try to push them 
+            out of the way. This is an example of Newton's 3rd Law (for every 
+            action there is an equal and opposite reaction).
+            </p>
+
+            <p>
+            Parachutes can also be used to study energy changes.  As a 
+            future aerospace engineer, you’re going to use the process 
+            of creating and deploying parachutes to study the <b>Law of 
+            Conservation of Energy</b>.  Although six major types of energy 
+            have been identified in this unit: <b>Mechanical, Light, Heat, 
+            Chemical, Electric, and Nuclear</b>.  All of these fit under 
+            two energy categories: <b>Kinetic and Potential Energy</b>.
+            </p>
+    </div>
+
+    <div id="ToC">
+        <ul>
+            <li><a href="#datatablesetup">Data Table Setup</a></li>
+            <li><a href="#materials">Materials</a></li>
+            <li><a href="#procedure">Procedures</a></li>
+            <li><a href="#dataanalysis">Data Analysis</a></li>
+            <li><a href="#questions">Analysis Questions</a></li>
+        </ul>
+        <hr />
+    </div>
+
+    <div id="datatablesetup">
+        <h2>Data Tables</h2>
+        <p>Create these data tables on the google doc linked from google classroom</p>
+        <h3>Parachute 1 Data Chart</h3>
+        <h4>Size or Description of Parachute: </h4>
+            <table>
+                <tr>
+                    <th>Trial #</th>
+                    <th>Mass <i>m</i> <br>(kg)</th>
+                    <th>Acceleration from <br>Gravity <br><i>g</i><br> (m/s<sup>2</sup>)</th>
+                    <th>Height <i>h</i><br>(m)</th>
+                    <th class="calcCol"><b>G.P.E.</b><br><i>(J)</i></th>
+                    <th>Time<br> <i>(s)</i></th>
+                    <th>Ave. Vel. <br> <i>(m/s)</i></th>
+                    <th>Final Vel. <br> <i>(m/s)</i></th>
+                    <th class="calcCol"><b>K.E.</b><br><i>(J)</i></th>
+                    <th class="calcCol"><b>Energy Difference</b> <br><i>&Delta;E</i><br><i>(J)</i></th>
+                </tr>
+                <tr>
+                    <td> Trial 1</td>
+                    <td></td><td></td><td></td><td class="calcCol"></td><td></td><td></td><td></td><td class="calcCol"></td><td class="calcCol"></td>
+                </tr>
+                <tr>
+                    <td>Trial 2</td>
+                    <td></td><td></td><td></td><td class="calcCol"></td><td></td><td></td><td></td><td class="calcCol"></td><td class="calcCol"></td>
+                </tr>
+            </table>
+
+        <h3>Parachute 2 Data Chart</h3>
+        <h4>Size or Description of Parachute: </h4>
+            <table>
+                <tr>
+                    <th>Trial #</th>
+                    <th>Mass <i>m</i> <br>(kg)</th>
+                    <th>Acceleration from <br>Gravity <br><i>g</i><br> (m/s<sup>2</sup>)</th>
+                    <th>Height <i>h</i><br>(m)</th>
+                    <th class="calcCol"><b>G.P.E.</b><br><i>(J)</i></th>
+                    <th>Time<br> <i>(s)</i></th>
+                    <th>Ave. Vel. <br> <i>(m/s)</i></th>
+                    <th>Final Vel. <br> <i>(m/s)</i></th>
+                    <th class="calcCol"><b>K.E.</b><br><i>(J)</i></th>
+                    <th class="calcCol"><b>Energy Difference</b> <br><i>&Delta;E</i><br><i>(J)</i></th>
+                </tr>
+                <tr>
+                    <td>Trial 1</td>
+                    <td></td><td></td><td></td><td class="calcCol"></td><td></td><td></td><td></td><td class="calcCol"></td><td class="calcCol"></td>
+                </tr>
+                <tr>
+                    <td>Trial 2</td>
+                    <td></td><td></td><td></td><td class="calcCol"></td><td></td><td></td><td></td><td class="calcCol"></td><td class="calcCol"></td>
+                </tr>
+            </table>
+
+        <a href="#top">Top</a>
+        <hr />
+    </div>
+
+    <div id="materials">
+        <h2>Materials</h2>
+        <table class="tableNB">
+            <tr>
+                <td class="tdNB">Scissors</td>
+                <td class="tdNB">Tape</td>
+                <td class="tdNB">Stop Watch</td>
+                <td class="tdNB">Plastic Bags</td>
+            </tr>
+            <tr>
+                <td class="tdNB">Meter Stick</td>
+                <td class="tdNB">String</td>
+                <td class="tdNB">Pencil <i>(this is our Parachutist)</i></td>
+            </tr>
+        </table>
+        
+        <a href="#top">Top</a>
+        <hr />
+    </div>
+
+    <div id="procedure">
+        <h2>Procedure</h2>
+        <ol>
+            <li class="liProc">Choose a set height (at least 2 meters; higher is better) 
+                from which to drop the pencil and parachute.  One student 
+                should drop the object while another times the falls and 
+                records the data on the <b>DATA SHEET</b>.
+            </li>
+            <li class="liProc">
+                From the plastic bags cut out 2 <b>different</b> sizes of squares. 
+                Measure the size and record in the data chart. (cut one that 
+                is a 10cm x 10cm square and another that is 20cm x 20cm)
+            </li>
+            <li class="liProc">
+                Cut the string into FOUR equal lengths of about <b>25</b> cm each.
+            </li>
+            <li class="liProc">
+                Use a small piece of tape to secure the end of one string to one 
+                corner of your parachute.
+            </li>
+            <li class="liProc">
+                Tape the second string to the second corner, the third string to 
+                the third corner, and the fourth string to the fourth corner of 
+                your parachute.
+            </li>
+            <li class="liProc">
+                Collect the strings (making sure they are not tangled) and tape 
+                all four free ends to <b>one end</b> of the pencil.
+            </li>
+            <li class="liProc">
+                Find the mass of your parachute <i>(in kg)</i>and record this in 
+                <b>Parachute 1 Data Chart Trial #1 <i>and</i> Trial #2</b><br>
+                <i>Why the same mass?</i>
+            </li>
+            <li class="liProc">
+                Drop the parachute from <b><u>your</u></b> selected height and time the fall.  
+                Before you release the parachute, be sure it is open and free from tangles.
+            </li>
+            <li class="liProc">
+                Enter the time of the fall and the area of the parachute in the <b>Parachute 
+                1 Data Chart Trial #1</b>
+            </li>
+            <li class="liProc">
+                Repeat one more time, and enter that time for <b>Trial #2</b> on the
+                 data sheet. 
+            </li>
+            <li class="liProc">
+                Attach strings to your second parachute as you did for your first one. 
+            </li>
+            <li class="liProc">
+                Find the mass of your parachute <i>(in kg)</i>and record this in 
+                <b>Parachute 2 Data Chart Trial #1 <i>and</i> Trial #2</b>
+            </li>
+            <li class="liProc">
+                Drop the parachute from your selected height and time the fall.  Before 
+                you release the parachute, be sure it is open and free from tangles.
+            </li>
+            <li class="liProc">
+                Enter the time of the fall and the area of this 2nd parachute in 
+                the <b>Parachute 2 Data Chart Trial #1</b>
+            </li>
+            <li class="liProc">
+                Repeat the procedure one more time, and enter those times for <b>Trial #2.</b> 
+            </li>
+            <li class="liProc">
+                Calculate GPE, Velocity, KE, and Total Energy 
+                (see equations in the <a href="#dataanalysis">Data Analysis</a> section)
+            </li>
+        </ol>
+
+        <a href="#top">Top</a>
+        <hr />
+    </div>
+
+    <div id="dataanalysis">
+        <h2>Data Analysis</h2>
+
+        <ul>
+            <li class="liProc">
+                Find G.P.E. by using the equation:<br>
+                \[G.P.E=m*g*h\]<br>
+                Record this G.P.E. box for each trial
+            </li>
+            <li class="liProc">
+                Find the K.E. by using the equation:<br>
+                \[K.E.=\frac{1}{2}*m*v^2\]<br>
+                Record this in the K.E. box for each trial
+            </li>
+            <li class="liProc">
+                Find the difference in energy by using the equation:<br>
+                \[\Delta E = K.E. - G.P.E.\]
+            </li>
+        </ul>
+        <a href="#top">Top</a>
+        <hr />
+    </div>
+
+    <div id="questions">
+        <h2>Analysis Questions</h2>
+        <p>Answer the following questions on the same doc as you made your
+            data tables. Copy and paste the questions into the doc.
+        </p>
+        <ol>
+            <li>State the <b>Law of Conservation of Energy</b> in your own words</li>
+            <li>How did the <b>potential</b> and <b>kinetic</b> energies of your
+            parachutist compare?</li>
+            <li>Why do you think there is a difference if any?</li>
+            <li>Based on your data, did this investigation demonstrate 
+                the <b>Law of Conservation of Energy</b>? <b><i><u>Explain</u></i></b>
+            </li>
+            <li>Explain how the energy of your parachutist changes as it falls. 
+                Use vocab (ie potential energy, kinetic energy, acceleration 
+                due to gravity, unbalanced forces, etc)</li>
+        </ol>
+
+        <a href="#top">Top</a>
+        <hr />
+    </div>
+    <a href="index.html">Back to Main Page</a>
 </body>
