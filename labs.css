@@ -14,14 +14,6 @@ h1, h2, h3, h4 {color: #003694;}
 h1 {text-align: center;}
 h2 {text-align: right;}
 
-a.back {
-    margin-right: 0;
-    margin-left: auto;
-    text-align: right;
-}
-
-
-
 td {
     border: 1px solid black;
     padding: 15px;
