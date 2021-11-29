@@ -5,6 +5,10 @@
         <title>The Speed of Sound</title>
         <link href="labs.css"
         type="text/css" rel="stylesheet">
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
     </head>
 
     <body>
@@ -104,7 +108,10 @@
                 <div>
                     <table class="pictab">
                         <tr>
-                            <td class="pic"><img src="images/SoS_lab/trigg_scrn.jpg"></td>
+                            <td class="pic"><figure>
+                                <img src="images/SoS_lab/trigg_scrn.jpg">
+                                <figcaption>You will need to scroll down to see this full screen</figcaption>
+                            </figure></td>
                             <td class="pic"><img src="images/SoS_lab/trigg_setup.jpg"></td>
                         </tr>
                     </table>
@@ -119,6 +126,9 @@
                     <img src="images/SoS_lab/waiting.jpg">
                 </figure>
                 <li>Let the arms of the binderclip click together 2-3 inches from the opening of the tube</li>
+                <ul>
+                    <li>If your noise is too loud it will cause the graph to be very difficult to read</li>
+                </ul>>
                 <table class="pictab">
                     <tr>
                         <td class="pic"><img src="images/SoS_lab/clip_loc.jpg"></td>
@@ -144,9 +154,15 @@
         <div id="dataanalysis">
             <h2>Data Analysis</h2>
             <ol>
-                <li>Determine your average time interval</li>
+                <li>Determine your average time interval by averaging your time intervals</li>
                 <li>Double the length of your tube. (Why do we need to do this?)</li>
                 <li>Determine the speed of the wave using your doubled length and average time interval</li>
+                <ul>
+                    <li>Remember the equation for velocity: \[v={s \over t}\]</li>
+                    <li>v - velocity</li>
+                    <li>s - displacement</li>
+                    <li>t - time</li>
+                </ul>
             </ol>
         </div>
 
@@ -161,13 +177,14 @@
                     to calculate the speed of sound in the classroom.
                 </li>
                 <ul>
-                    <li>v<sub>sound</sub> = 331 m/s + 0.607 m/s/˚C * T</li>
+                    <p>\[v_{sound} = 331 \frac{m}{s} + 0.607 \left(\frac{m/s}{˚C}\right) * T\]</p>
                     <li>T is the temperature in the room</li>
                 </ul>
                 <li>Find the percent error of your measurement using the following equation</li>
-                <figure class="equation">
+                <p>\[error = { \lvert {v_{meas} - v_{theo}} \rvert \over v_{theo}} * 100 \% \]</p>
+                <!--<figure class="equation">
                     <img src="images/Percent_Error.svg" width="250px">
-                </figure>
+                </figure> -->
                 <li>How does the medium affect the speed of sound?</li>
                 <li>What kind of wave is sound?</li>
                 <li>Is it possible to have a sound in the vacuum of space? Why or 
