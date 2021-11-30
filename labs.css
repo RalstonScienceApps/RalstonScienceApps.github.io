@@ -102,3 +102,10 @@ img {
     border: none;
     margin: auto auto;
 }
+
+
+
+#calSubHead {
+    text-align: center;
+    padding-right: 0%;
+}
