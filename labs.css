@@ -26,6 +26,9 @@ a:visited {
     padding-top: 5px;
 }
 
+p {
+    font-size: large;
+}
 
 
 body {
@@ -96,6 +99,7 @@ img {
 
 .pic{
     border: none;
+    text-align: left;
 }
 
 .equation{
