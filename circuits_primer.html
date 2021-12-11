@@ -14,12 +14,33 @@
 </head>
 
 <body>
-    <div id="top">
+    <div id="top" class="norm">
         <h1>Circuits</h1>
         <hr />
     </div>
 
-    <div id="intro">
+    <div class="quicklinks">
+        <h2 class="quicklinks">Quick Links</h2>
+        <table class="quicklinks">
+            <tr>
+                <td class="quicklinks">
+                    <a href="#top">Top</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="quicklinks">
+                    <a href="#intro">Intro</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="quicklinks"><a href="#components">Components</a></td>
+            </tr>
+        </table>
+       
+        
+    </div>
+
+    <div id="intro" class="norm">
         <h2>Introduction</h2>
         <p>
             There are many different components in electronics. Some of them you
@@ -36,8 +57,9 @@
             resistors. In these activities you will be learning about circuit
             and how the pathway that electricity is provided affects their function.
         </p>
+        <hr />
     </div>
-    <div id="componenets">
+    <div id="components" class="norm">
         <h2>Components</h2>
         <table>
             <tr>
@@ -58,11 +80,98 @@
             </tr>
             <tr>
                 <td style="background-color: black; color: white;">Black</td>
-                <td>0</td><td>0</td><td>x1</td>
+                <td>0</td><td>0</td><td class="mag">x1</td>
             </tr>
             <tr>
                 <td style="background-color: brown; color: white;">Brown</td>
-                <td>1</td><td>1</td><td>x10</td>
+                <td>1</td><td>1</td><td class="mag">x10</td>
+            </tr>
+            <tr>
+                <td style="background-color: red; color: white;">Red</td>
+                <td>2</td><td>2</td><td class="mag">x100</td>
+            </tr>
+            <tr>
+                <td style="background-color: orange; color: white;">Orange</td>
+                <td>3</td><td>3</td><td class="mag">x1000</td>
+            </tr>
+            <tr>
+                <td style="background-color: yellow;">Yellow</td>
+                <td>4</td><td>4</td><td class="mag">x10,000</td>
+            </tr>
+            <tr>
+                <td style="background-color: green; color: white;">Green</td>
+                <td>5</td><td>5</td><td class="mag">x100,000</td>
+            </tr>
+            <tr>
+                <td style="background-color: blue; color: white;">Blue</td>
+                <td>6</td><td>6</td><td class="mag">x1,000,000</td>
+            </tr>
+            <tr>
+                <td style="background-color: violet; color: white;">Violet</td>
+                <td>7</td><td>7</td><td class="mag">x10,000,000</td>
+            </tr>
+            <tr>
+                <td style="background-color: grey;">Grey</td>
+                <td>8</td><td>8</td><td class="mag">x100,000,000</td>
+            </tr>
+            <tr>
+                <td>White</td>
+                <td>9</td><td>9</td><td> ---- </td>
+            </tr>
+            <tr>
+                <td colspan="2">The fourth band gives the tolerance</td>
+                <td style="background-color: gold;">Gold = +/- 5%</td>
+                <td style="background-color: silver;">Silver = +/- 10%</td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    For example, if a resistor has a yellow, then violet,
+                    then red band:<br>
+                    Yellow means 4<br>
+                    Violet means 7<br>
+                    and red means x 100<br>
+                    so that would be 47 x 100 or 4700 &Omega;<br>
+                    which we often write as 4.7 k&Omega;
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    We will be using brown-black-red resistors which are
+                    1 k&Omega; and yellow-violet-red resistors which are
+                    4.7 k&Omega;.
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">1 k&Omega;</th><th colspan="2">4.7 k&Omega;</th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <img src="images/circuits/res_1k.jpg">
+                </td>
+                <td colspan="2">
+                    <img src="images/circuits/res_4-7k.jpg">
+                </td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <th>Breadboard</th>
+            </tr>
+            <tr>
+                <td>
+                    Breadboard is used in electronics to trial new circuits
+                    without the need for soldering. (Soldering is the process
+                    of connecting electronic components with heat and a special
+                    alloy that holds the components together.) It is important
+                    to understand how the breadboard works in order to use it
+                    effectively.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="images/ohms_law/bread_board.jpg">
+                </td>
             </tr>
         </table>
     </div>
