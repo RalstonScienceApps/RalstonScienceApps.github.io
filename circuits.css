@@ -4,6 +4,7 @@ div.norm{
     max-width: 85%;
     padding: relative;
     padding-left: 5px;
+    overflow: scroll;
 }
 
 
@@ -36,6 +37,7 @@ td.mag {
 }
 
 table{
+    width: auto;
     max-width: 85%;
 }
 
