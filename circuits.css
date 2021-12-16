@@ -13,8 +13,14 @@ div.quicklinks {
     top: 0;
     left: 0;
     width: 15%;
-
+    overflow: scroll;
     min-height: 99%;
+}
+
+div.ascii {
+    text-align: left;
+    font-family: monospace;
+    white-space: pre;
 }
 
 h2.quicklinks {

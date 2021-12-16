@@ -47,6 +47,16 @@
                     <a href="#breadboard">- Breadboard</a>
                 </td>
             </tr>
+            <tr>
+                <td class="quicklinks">
+                    <a href="#simpcirc">- Simple Circuits</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="quicklinks">
+                    <a href="#short">- Short Circuit</a>
+                </td>
+            </tr>
         </table>
        
         
@@ -216,7 +226,95 @@
                 </td>
             </tr>
         </table>
-
-        
+        <br>
+        <table id="simpcirc">
+            <tr>
+                <th colspan="2">Simple Circuits</th>
+            </tr>
+            <tr>
+                <td>
+                    Connect the battery to the power rails. Red goes to
+                    pink and black goes to blue. The charges want to flow
+                    from pink to blue.
+                </td>
+                <td>
+                    Use a jumper wire to energize one of the rows. Be
+                    sure to use numbered row to make your life easier.
+                </td>
+            </tr>
+            <tr>
+                <td>image</td>
+                <td>image</td>
+            </tr>
+            <tr>
+                <td>
+                    Connect your component to the newly energized row.
+                    Be sure not to plug both ends of the component into 
+                    the same row as this will <a href="#short">short 
+                        circuit</a>
+                    the component. Connect the other end of the 
+                    component to another row. (Preferably a numbered one)
+                </td>
+                <td>
+                    Use a jumper wire to connect the component back to
+                    the negative end of the power rail. Remember, all 
+                    the charge needs to get back home.
+                </td>
+            </tr>
+            <tr>
+                <td>image</td>
+                <td>image</td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <tr id="short">
+                <th colspan="3">Short Circuit</th>
+            </tr>
+            <tr>
+                <td>
+                    Short Circuits occur because electricity is provided a
+                    pathway to flow in a way that bypasses a component.
+                    Electricity will take the path of least resistance whenever
+                    possible, so if there is a wire with very little resistance
+                    running in parallel to your component, most of the 
+                    current will run that way.
+                    <br>
+                    There will be two major effects due to this. The first is
+                    that the comonent will not behave as expected. This could
+                    mean that an LED doesn't light up, or a motor doesn't turn.
+                    The other effect can be much more serious. By providing
+                    a pathway for electricity to flow with very little
+                    resistance, current can increase greatly. This can lead
+                    to increased heat, even fire if the component cannot 
+                    handle the increased thermal energy.
+                </td>
+                <td colspan="2" class="ascii">
+                <div class="ascii">
+                    Resistor
+    *-----------*-----wwwww------*---------*
+    |       I | |     I ->       | ^       |
+    |         | |                | |       |
+    |         | |                | |       |
+    |         | |                | |       |
+    |         V |                | |I      |
+  *--*          |     FIRE!      |         |
+*------*        *----------------*         |
+|    + |          I ---------->            |
+|      |                                   |
+|      |                                   |
+|      |                                   |
+|      |                                   |
+|    - |                                   |
+*______*                                   |
+    |                                      |
+    *--------------------------------------*
+                </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+            </tr>
+        </table>
     </div>
 </body>
