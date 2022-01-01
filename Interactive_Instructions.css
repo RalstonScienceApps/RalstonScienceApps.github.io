@@ -1,4 +1,12 @@
-td{
+table td{
     text-align: left;
     vertical-align: top;
+    width: 50%;
+    overflow: scroll;
+}
+
+table{
+    overflow: scroll;
+    table-layout: auto;
+    width: 100%;
 }
