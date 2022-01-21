@@ -10,3 +10,8 @@ table{
     table-layout: auto;
     width: 100%;
 }
+
+.iframe_div{
+    position: sticky;
+}
+
