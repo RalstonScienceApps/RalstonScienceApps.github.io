@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Droid, serif;
+    src: url(fonts/droidserif-regular.tff);
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {font-family: Droid, serif;}
+
+body {
+    background-color: #B3DFF7;
+}
+h1, h2, h3, h4 {color: #003694;}
+h1 {text-align: center;}
+h2 {text-align: right;
+    padding-top: 0px;}
+
+a {color: blue;}
+a:visited {
+    color: #A6192E;
+    text-decoration: underline;
+}
+
+hr {color: #A6192E;}
+
+table {
+    border: 1px solid black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+th{
+    border: 1px solid black;
+    padding-right: 5%;
+}
+
+td {
+    border: 1px solid black;
+}
