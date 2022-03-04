@@ -7,9 +7,34 @@
 
 * {font-family: Droid, serif;}
 
-body {
-    background-color: #B3DFF7;
+/*header css stuff*/
+header {
+    background-color: #003694;
+    margin: 10px;
+    width: 960px;
 }
+header h1{
+    color: white;
+    padding-top: 1%;
+}
+
+header ul{
+    background-color: #003694;
+}
+
+header li{
+    display: block;
+    background-color: #003694;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+
+body{
+    margin: 0px;
+}
+
 h1, h2, h3, h4 {color: #003694;}
 h1 {text-align: center;}
 h2 {text-align: right;
